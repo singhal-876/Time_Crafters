@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.LeaveFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerviewleave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/leave_button"/>
+
+    <TextView
+        android:id="@+id/before_ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:text="@string/do_it_before_10_p_m"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/leave_edit_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/before_ten"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        tools:ignore="Autofill,LabelFor,TextFields" />
+
+    <Button
+        android:id="@+id/leave_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/leave_edit_txt"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:background="#228cdc"
+        android:text="@string/submit"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"/>
+
+</RelativeLayout>

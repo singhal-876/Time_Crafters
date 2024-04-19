@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Time Crafters</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="enter_password">Enter password</string>
+    <string name="login">login</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="Preferences_file_name">Time Crafters Shared Preferences</string>
+    <string name="logout">Logout</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="favourites">Favourites</string>
+    <string name="profile">Profile</string>
+    <string name="about_us">About Us</string>
+    <string name="time_crafters">Time Crafters</string>
+    <string name="open">Open_Drawer</string>
+    <string name="close">Close_Drawer</string>
+    <string name="dashboard_txt">Dashboard</string>
+    <string name="favourites_txt">Favourites</string>
+    <string name="about_us_txt">About Us:-\n\nWe are Time Crafters and we are creating a smart academic time table generator.</string>
+    <string name="profile_txt">Profile</string>
+    <string name="list_cars">List Cars</string>
+    <string name="logout_menu">Logout</string>
+    <string name="messages">Messages</string>
+    <string name="notifications">Notifications</string>
+    <string name="holidays">Holidays</string>
+    <string name="leave_management">Leave Management</string>
+    <string name="student_txt">Student</string>
+    <string name="do_it_before_10_p_m">*Do it before 10 P.M.*</string>
+    <string name="submit">Submit</string>
+</resources>
